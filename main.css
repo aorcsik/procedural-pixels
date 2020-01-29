@@ -1,0 +1,27 @@
+#flip_container {
+  /* border-left: 1px solid #222;
+  border-top: 1px solid #222; */
+}
+
+.flip_card {
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  float: left;
+  font-size: 0.5em;
+  /* border-right: 1px solid #222;
+  border-bottom: 1px solid #222; */
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.7em;
+  background: #222;
+  text-indent: -9999px;
+}
+
+.flip_card.open {
+  background: #fff;
+}
+
+.flip_end_of_row {
+  clear: both;
+}
